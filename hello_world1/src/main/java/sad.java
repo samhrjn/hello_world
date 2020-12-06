@@ -28,12 +28,15 @@ public class sad extends javax.swing.JFrame {
 
         jRadioButton1 = new javax.swing.JRadioButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jRadioButton1.setText("jRadioButton1");
 
         jLabel1.setText("jLabel1");
+
+        jLabel2.setText("wow i am dying of sad");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -45,6 +48,10 @@ public class sad extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jRadioButton1))
                 .addGap(119, 119, 119))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(80, 80, 80)
+                .addComponent(jLabel2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -53,7 +60,9 @@ public class sad extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
                 .addComponent(jRadioButton1)
-                .addGap(125, 125, 125))
+                .addGap(26, 26, 26)
+                .addComponent(jLabel2)
+                .addGap(85, 85, 85))
         );
 
         pack();
@@ -96,6 +105,7 @@ public class sad extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JRadioButton jRadioButton1;
     // End of variables declaration//GEN-END:variables
 }
